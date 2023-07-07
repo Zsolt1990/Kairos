@@ -1,0 +1,14 @@
+body {
+    background: #f5f5f5;
+    color: #212121;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+    background-position: 60px -2px;
+}
+
+a {
+    color: #6B6B6B;
+}
+
+a:hover {
+    color: #212121;
+}

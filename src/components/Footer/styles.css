@@ -1,0 +1,21 @@
+.footer__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__content-email {
+    display: flex;
+    align-items: center;
+}
+
+.footer__content-social {
+    width: 35px;
+    height: auto;
+}
+
+svg.footer__content-email-icon {
+    width: 35px;
+    height: auto;
+    margin-right: .5rem;
+}
