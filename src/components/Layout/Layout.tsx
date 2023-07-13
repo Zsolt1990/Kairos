@@ -10,7 +10,7 @@ const Layout = (props: {children: JSX.Element | JSX.Element[]}) => {
     return (
         <>
             <Header />
-            <main id="main" className="main">
+            <main id="main" className="layout__wrapper">
                 <div className="layout">
                     {children}
                 </div>

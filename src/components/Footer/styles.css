@@ -1,21 +1,40 @@
-.footer__content {
+.footer {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+    justify-content: space-around;
+    margin: 10px;
+}   
 
-.footer__content-email {
+
+
+.footer__content-social-icons {
     display: flex;
     align-items: center;
-}
-
-.footer__content-social {
-    width: 35px;
-    height: auto;
-}
-
-svg.footer__content-email-icon {
-    width: 35px;
-    height: auto;
     margin-right: .5rem;
+    margin-top: 150px;
+   
+} 
+
+.footer__content-email-link {
+    margin-right: 1rem;
 }
+
+.footer__content-email-icon,
+.footer__content-insta-icon {
+    height: 30px;
+    width: auto;
+}
+
+.footer__help {
+   text-align: right;
+   float: right;
+   margin-right: .5rem;
+}
+
+
+.footer__help-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
