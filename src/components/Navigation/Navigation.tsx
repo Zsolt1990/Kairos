@@ -24,16 +24,19 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <ul className="navigation__list">
             <li className="navigation__item">
-              <Link to="/" className="navigation__link">What is new </Link>
+              <Link to="/about" className="navigation__link">Home </Link>
             </li>
             <li className="navigation__item">
-              <Link to="/contact" className="navigation__link">Women</Link>
+              <Link to="#" className="navigation__link">What is new </Link>
             </li>
             <li className="navigation__item">
-              <Link to="/about-us" className="navigation__link">Men</Link>
+              <Link to="#" className="navigation__link">Women</Link>
             </li>
             <li className="navigation__item">
-              <Link to="/surf-camps" className="navigation__link">Decor & Lifestyle</Link>
+              <Link to="#" className="navigation__link">Men</Link>
+            </li>
+            <li className="navigation__item">
+              <Link to="#" className="navigation__link">Decor & Lifestyle</Link>
             </li>
           </ul>
         )}

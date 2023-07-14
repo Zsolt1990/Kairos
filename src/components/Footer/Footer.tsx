@@ -16,15 +16,15 @@ const Footer = () : JSX.Element => {
                 <div className="footer__help">
                     <h5>Do you need any help?</h5>
                     <ul className="footer__help-list">
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">My Order</a></li>
-                        <li><a href="#">Maps</a></li>
-                        <li><a href="#">Mission</a></li>
-                        <li><a href="#">Kairos Research for balance</a></li>
-                        <li><a href="#">Ethical Code</a></li>
-                        <li><a href="#">Work with the Team</a></li>
-                        <li><a href="#">Collaborations</a></li>
-                        <li><a href="#">Society Team Work</a></li>
+                        <li className="footer__help-list"><a href="#">Contact</a></li>
+                        <li className="footer__help-list"><a href="#">My Order</a></li>
+                        <li className="footer__help-list"><a href="#">Maps</a></li>
+                        <li className="footer__help-list"><a href="#">Mission</a></li>
+                        <li className="footer__help-list"><a href="#">Kairos Research for balance</a></li>
+                        <li className="footer__help-list"><a href="#">Ethical Code</a></li>
+                        <li className="footer__help-list"><a href="#">Work with the Team</a></li>
+                        <li className="footer__help-list"><a href="#">Collaborations</a></li>
+                        <li className="footer__help-list"><a href="#">Society Team Work</a></li>
                     </ul>
                 </div>
         </footer>
