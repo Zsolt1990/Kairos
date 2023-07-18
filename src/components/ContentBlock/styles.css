@@ -3,10 +3,21 @@
     margin: 0 auto;
     padding: 1rem;
     line-height: 1.5rem;
-   text-align: center;
+    text-align: justify;
 }
 
 h1 {
+    font-style: italic;
     font-size: 2em;
-    margin: 3rem;
+    margin: -1.5rrem;
+    text-align: center;
+    position: relative;
+    top: -41px;
+    margin: 59px;
+}
+
+a.Content-Block__sailing-lovers {
+    display: block; 
+    text-align: center;
+    top: 40px;  
 }

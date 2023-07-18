@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, type HeadFC, type PageProps } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import ContentBlock from "../components/ContentBlock/ContentBlock"
-import FeaturedImage from "../components/FeaturedImage/FeaturedImage"
+import FeaturedImage from "../components/featur/featuredImage"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -24,15 +24,16 @@ const IndexPage: React.FC<PageProps> = () => {
                adventures while looking for EQUILIBRIUM. 
                <br />
                <br />
-               Kairos started in Buenos Aires ( Argentina) in 2020, and it's slowly  progressing with determination,
+               Kairos started in Buenos Aires( Argentina) in 2020, and it's slowly  progressing with determination,
                looking to redefine beauty, and enjoying handmade work, creativity, evolution and innovation.
                Following the trips that the founder keeps on doing, the brand it is developing and finding the best
                language at each moment. 
-               <br />
-               <br />
+                <br />
+                <br />
                Maureen Tursi began designing and making clothes out of the simple desire to be able to feel the 
                nobility on her skin, and to be able to be as faithful to her emotional states. 
-               
+                 <br />
+                 <br />
                Somehow clothes manifest what we like. But above all things, Maureen wanted to unite the currents of 
                physical beauty with the subtle beauty of maintaining a balance in the quality of the materials, both 
                for the skin and for the Earth. She became obsessed with the idea of ​​manifesting beauty at all levels,
@@ -45,7 +46,6 @@ const IndexPage: React.FC<PageProps> = () => {
                </div>  
                <br />
                <br />
-
         <a className="Content-Block__sailing-lovers"href="#">Sailing Lovers <br />*The ones who always return to the sea*</a>
       </ContentBlock>
     </Layout>
